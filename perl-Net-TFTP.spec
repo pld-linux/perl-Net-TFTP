@@ -25,7 +25,8 @@ Summary(zh_CN):	Net::TFTP Perl Ä£¿é
 Name:		perl-Net-TFTP
 Version:	0.16
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	59d0faa69e894a99fc402bbda4ca7734
@@ -53,7 +54,8 @@ Net::TFTP - klient TFTP.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
