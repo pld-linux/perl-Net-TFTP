@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Net::TFTP
 Summary(zh_CN):	Net::TFTP Perl дё©И
 Name:		perl-Net-TFTP
 Version:	0.16
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
