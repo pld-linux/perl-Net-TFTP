@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	TFTP
+%define		pdir	Net
+%define		pnam	TFTP
 Summary:	Net::TFTP Perl module
 Summary(cs):	Modul Net::TFTP pro Perl
 Summary(da):	Perlmodul Net::TFTP
