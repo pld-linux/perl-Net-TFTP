@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	TFTP
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-TFTP perl module
 Summary(pl):	Modu³ perla Net-TFTP
 Name:		perl-Net-TFTP
 Version:	0.13
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Net-TFTP - TFTP Client.
 Net-TFTP - klient TFTP.
 
 %prep
-%setup -q -n Net-TFTP-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
