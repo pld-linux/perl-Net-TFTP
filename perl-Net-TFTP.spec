@@ -4,7 +4,7 @@
 Summary:	Net::TFTP perl module
 Summary(pl):	Modu³ perla Net::TFTP
 Name:		perl-Net-TFTP
-Version:	0.15
+Version:	0.16
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
