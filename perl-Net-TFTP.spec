@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Net::TFTP
 Summary(it):	Modulo di Perl Net::TFTP
 Summary(ja):	Net::TFTP Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Net::TFTP ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Net::TFTP
+Summary(nb):	Perlmodul Net::TFTP
 Summary(pl):	Modu³ Perla Net::TFTP
 Summary(pt):	Módulo de Perl Net::TFTP
 Summary(pt_BR):	Módulo Perl Net::TFTP
