@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	TFTP
-Summary:	Net-TFTP perl module
-Summary(pl):	Modu³ perla Net-TFTP
+Summary:	Net::TFTP perl module
+Summary(pl):	Modu³ perla Net::TFTP
 Name:		perl-Net-TFTP
 Version:	0.13
 Release:	4
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-TFTP - TFTP Client.
+Net::TFTP - TFTP Client.
 
 %description -l pl
-Net-TFTP - klient TFTP.
+Net::TFTP - klient TFTP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
