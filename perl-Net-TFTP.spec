@@ -1,8 +1,27 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	TFTP
-Summary:	Net::TFTP perl module
-Summary(pl):	Modu³ perla Net::TFTP
+Summary:	Net::TFTP Perl module
+Summary(cs):	Modul Net::TFTP pro Perl
+Summary(da):	Perlmodul Net::TFTP
+Summary(de):	Net::TFTP Perl Modul
+Summary(es):	Módulo de Perl Net::TFTP
+Summary(fr):	Module Perl Net::TFTP
+Summary(it):	Modulo di Perl Net::TFTP
+Summary(ja):	Net::TFTP Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Net::TFTP ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Net::TFTP
+Summary(pl):	Modu³ Perla Net::TFTP
+Summary(pt):	Módulo de Perl Net::TFTP
+Summary(pt_BR):	Módulo Perl Net::TFTP
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Net::TFTP
+Summary(sv):	Net::TFTP Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Net::TFTP
+Summary(zh_CN):	Net::TFTP Perl Ä£¿é
 Name:		perl-Net-TFTP
 Version:	0.16
 Release:	1
@@ -26,6 +45,7 @@ Net::TFTP - klient TFTP.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
