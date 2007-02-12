@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	TFTP
 Summary:	Net::TFTP Perl module
-Summary(cs):	Modul Net::TFTP pro Perl
-Summary(da):	Perlmodul Net::TFTP
-Summary(de):	Net::TFTP Perl Modul
-Summary(es):	MÛdulo de Perl Net::TFTP
-Summary(fr):	Module Perl Net::TFTP
-Summary(it):	Modulo di Perl Net::TFTP
-Summary(ja):	Net::TFTP Perl •‚•∏•Â°º•Î
-Summary(ko):	Net::TFTP ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Net::TFTP
-Summary(pl):	Modu≥ Perla Net::TFTP
-Summary(pt):	MÛdulo de Perl Net::TFTP
-Summary(pt_BR):	MÛdulo Perl Net::TFTP
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Net::TFTP
-Summary(sv):	Net::TFTP Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Net::TFTP
-Summary(zh_CN):	Net::TFTP Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Net::TFTP pro Perl
+Summary(da.UTF-8):   Perlmodul Net::TFTP
+Summary(de.UTF-8):   Net::TFTP Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Net::TFTP
+Summary(fr.UTF-8):   Module Perl Net::TFTP
+Summary(it.UTF-8):   Modulo di Perl Net::TFTP
+Summary(ja.UTF-8):   Net::TFTP Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Net::TFTP ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Net::TFTP
+Summary(pl.UTF-8):   Modu≈Ç Perla Net::TFTP
+Summary(pt.UTF-8):   M√≥dulo de Perl Net::TFTP
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Net::TFTP
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Net::TFTP
+Summary(sv.UTF-8):   Net::TFTP Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Net::TFTP
+Summary(zh_CN.UTF-8):   Net::TFTP Perl Ê®°Âùó
 Name:		perl-Net-TFTP
 Version:	0.16
 Release:	3
@@ -38,7 +38,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Net::TFTP - TFTP Client.
 
-%description -l pl
+%description -l pl.UTF-8
 Net::TFTP - klient TFTP.
 
 %prep
