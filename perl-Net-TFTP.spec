@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	TFTP
 Summary:	Net::TFTP Perl module
-Summary(cs.UTF-8):   Modul Net::TFTP pro Perl
-Summary(da.UTF-8):   Perlmodul Net::TFTP
-Summary(de.UTF-8):   Net::TFTP Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Net::TFTP
-Summary(fr.UTF-8):   Module Perl Net::TFTP
-Summary(it.UTF-8):   Modulo di Perl Net::TFTP
-Summary(ja.UTF-8):   Net::TFTP Perl モジュール
-Summary(ko.UTF-8):   Net::TFTP 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Net::TFTP
-Summary(pl.UTF-8):   Moduł Perla Net::TFTP
-Summary(pt.UTF-8):   Módulo de Perl Net::TFTP
-Summary(pt_BR.UTF-8):   Módulo Perl Net::TFTP
-Summary(ru.UTF-8):   Модуль для Perl Net::TFTP
-Summary(sv.UTF-8):   Net::TFTP Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Net::TFTP
-Summary(zh_CN.UTF-8):   Net::TFTP Perl 模块
+Summary(cs.UTF-8):	Modul Net::TFTP pro Perl
+Summary(da.UTF-8):	Perlmodul Net::TFTP
+Summary(de.UTF-8):	Net::TFTP Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Net::TFTP
+Summary(fr.UTF-8):	Module Perl Net::TFTP
+Summary(it.UTF-8):	Modulo di Perl Net::TFTP
+Summary(ja.UTF-8):	Net::TFTP Perl モジュール
+Summary(ko.UTF-8):	Net::TFTP 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Net::TFTP
+Summary(pl.UTF-8):	Moduł Perla Net::TFTP
+Summary(pt.UTF-8):	Módulo de Perl Net::TFTP
+Summary(pt_BR.UTF-8):	Módulo Perl Net::TFTP
+Summary(ru.UTF-8):	Модуль для Perl Net::TFTP
+Summary(sv.UTF-8):	Net::TFTP Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Net::TFTP
+Summary(zh_CN.UTF-8):	Net::TFTP Perl 模块
 Name:		perl-Net-TFTP
 Version:	0.16
 Release:	3
