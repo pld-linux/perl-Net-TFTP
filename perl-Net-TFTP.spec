@@ -5,41 +5,27 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	TFTP
-Summary:	Net::TFTP Perl module
-Summary(cs.UTF-8):	Modul Net::TFTP pro Perl
-Summary(da.UTF-8):	Perlmodul Net::TFTP
-Summary(de.UTF-8):	Net::TFTP Perl Modul
-Summary(es.UTF-8):	Módulo de Perl Net::TFTP
-Summary(fr.UTF-8):	Module Perl Net::TFTP
-Summary(it.UTF-8):	Modulo di Perl Net::TFTP
-Summary(ja.UTF-8):	Net::TFTP Perl モジュール
-Summary(ko.UTF-8):	Net::TFTP 펄 모줄
-Summary(nb.UTF-8):	Perlmodul Net::TFTP
-Summary(pl.UTF-8):	Moduł Perla Net::TFTP
-Summary(pt.UTF-8):	Módulo de Perl Net::TFTP
-Summary(pt_BR.UTF-8):	Módulo Perl Net::TFTP
-Summary(ru.UTF-8):	Модуль для Perl Net::TFTP
-Summary(sv.UTF-8):	Net::TFTP Perlmodul
-Summary(uk.UTF-8):	Модуль для Perl Net::TFTP
-Summary(zh_CN.UTF-8):	Net::TFTP Perl 模块
+Summary:	Net::TFTP Perl module - TFTP Client class
+Summary(pl.UTF-8):	Moduł Perla Net::TFTP - klasa klienta TFTP
 Name:		perl-Net-TFTP
 Version:	0.17
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c845e0833ab1963f2f34675a3a10b5b9
+URL:		http://search.cpan.org/dist/Net-TFTP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net::TFTP - TFTP Client.
+Net::TFTP - TFTP Client class.
 
 %description -l pl.UTF-8
-Net::TFTP - klient TFTP.
+Net::TFTP - klasa klienta TFTP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
