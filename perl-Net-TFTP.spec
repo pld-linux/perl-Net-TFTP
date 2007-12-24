@@ -23,13 +23,13 @@ Summary(sv.UTF-8):	Net::TFTP Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Net::TFTP
 Summary(zh_CN.UTF-8):	Net::TFTP Perl 模块
 Name:		perl-Net-TFTP
-Version:	0.16
-Release:	3
+Version:	0.17
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	59d0faa69e894a99fc402bbda4ca7734
+# Source0-md5:	c845e0833ab1963f2f34675a3a10b5b9
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
