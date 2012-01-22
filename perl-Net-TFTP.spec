@@ -8,15 +8,18 @@
 Summary:	Net::TFTP Perl module - TFTP Client class
 Summary(pl.UTF-8):	Moduł Perla Net::TFTP - klasa klienta TFTP
 Name:		perl-Net-TFTP
-Version:	0.17
+Version:	0.19
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c845e0833ab1963f2f34675a3a10b5b9
+# Source0-md5:	5d8cb07bbfdd6dcbc6c1813a49123ac2
 URL:		http://search.cpan.org/dist/Net-TFTP/
 BuildRequires:	perl-devel >= 1:5.8.0
+%if %{with tests}
+BuildRequires:	perl-Test-MockModule
+%endif
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
